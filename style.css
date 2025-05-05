@@ -6,38 +6,38 @@ body {
   background-color: black;
 }
 .pididy{
-  max-width: 1440px;
+  max-width: 144rem;
   margin-inline: auto;
   position: relative;
 }
 .img{
-  width: 107px;
-  height: 109px;
+  width: 10.7rem;
+  height: 10.9rem;
 }
 
 header {
   display: flex;
-  /* position: absolute; */
   font-family: "inter";
   font-weight: 500;
   color: #ffff;
   align-items: center;
+  align-self: start;
   grid-column: span 2;
-  /* left: 8.5rem;
-  top: 2.3rem */
+  padding-top: 2.6rem;
 }
 .section_1 {
+  height: 100lvh;
   color: #ffff;
   overflow:hidden;
   min-height: 100lvh;
-  padding:0px 10rem;
+  padding:0rem 10rem;
   display: flex;
   align-items: center;
 }
 
 .content_container {
   display: grid;
-  max-width: 1440px;
+  max-width: 144rem;
   margin-inline: auto;
   width:100%;
   height:100%;
@@ -70,7 +70,7 @@ header {
 }
 .slash{
   height:14rem;
-  width:4px;
+  width:0.4rem;
   background-color: #ffff;
   transform: translateY(-10%) rotate(30deg);
 }
@@ -82,17 +82,17 @@ header {
   font-family:"Montserrat"
 }
 .content_container article img{
-  width:321px;
-  height:629px;
+  width:32.1rem;
   position: relative;
+  min-width: 17.4rem;
 }
 
 .blurred-circle_1 {
   background: radial-gradient(ellipse, #F101BF, #0066FF);
   opacity: 0.3;
   filter: blur(100px);
-  width: 404px;
-  height: 132px;
+  width: 40.4rem;
+  height: 13.2rem;
   position: absolute;
   left:0;
   bottom:-5rem;
@@ -100,24 +100,24 @@ header {
 
 .blurred-circle_2 {
   background: #F101BF;
-  border-radius: calc(infinity * 1px);
+  border-radius: calc(infinity * 0.1rem);
   opacity: 0.3;
   filter: blur(100px);
-  width: 721px;
-  height: 766px;
+  width: 72.1rem;
+  height: 76.6rem;
   position: absolute;
-  right: 0px;
-  top: -100px;
+  right: 0rem;
+  top: -10rem;
 }
 
 
 .blurred-circle_3 {
   background: #605CEA80;
-  border-radius: calc(infinity * 1px);
+  border-radius: calc(infinity * 0.1rem);
   opacity: 1;
   filter: blur(100px);
-  width: 125px;
-  height: 125px;
+  width: 12.5rem;
+  height: 12.5rem;
   position: absolute;
   left:9.3rem;
   top:56rem
@@ -126,8 +126,8 @@ header {
   background: radial-gradient(ellipse, #F101BF, #0066FF);
   opacity: 0.3;
   filter: blur(100px);
-  width: 246px;
-  height: 81px;
+  width: 24.6rem;
+  height: 8.1rem;
   position: absolute;
   left:35.8rem;
   bottom:40rem;
@@ -142,33 +142,26 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(photo/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
 }
 .content_container-2{
   display: flex;
-  /*max-width: 1440px;*/
   margin-inline: auto;
   width:100%;
   height:100%;
   align-items: center;
-  background: linear-gradient(black, rgba(0,0,0,0.4), black);
-
+  
 }
-
 .vignette-container {
   position: absolute;
   inset: 0;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .vignette-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;  
-  opacity: 0.5;
+  object-fit: cover;
 }
 
 .vignette-overlay {
@@ -178,15 +171,7 @@ header {
   width: 100%;
   height: 100%;
   pointer-events: none;
-
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1),
-      transparent 30%,
-      transparent 70% ,
-      rgba(0, 0, 0, 1)
-  );
-
+  background: linear-gradient(black, rgba(0,0,0,0.4), black);
 }
 
 .section_2{
@@ -214,14 +199,14 @@ header {
   font-size: 2rem;
 }
 .text-2{
-  font-size: 18px;
+  font-size: 1.8rem;
   width: 500rem;
   color: white;
   font-family: "Noto Sans";
 }
 
 .text-3{
-  font-size: 18px;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -236,7 +221,7 @@ header {
 }
 
 .Our{
-  font-size: 51px;
+  font-size: 5.1rem;
 }
 h2{
   padding-bottom: 3rem;
@@ -252,7 +237,7 @@ h2{
 
 
 .pole{
-  border-radius: 10px;
+  border-radius: 1rem;
   margin: 1rem;
   font-family: 'Noto Sans';
   padding: 2rem;
@@ -318,4 +303,23 @@ h2{
 }
 .button:active{
   background-color: rgb(182, 182, 182);
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+footer p{
+  font-size: 1.8rem;
+  font-family: 'inter';
+  padding: 1rem;
+  font-weight: bold
 }

@@ -1,0 +1,122 @@
+@media (max-width:768px){
+    .img{
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+    .content_container .content_container-content h2{
+        font-size: 3.5rem;
+        padding-top: 5rem;
+    }
+
+    svg{
+        display: none;
+    }
+
+    .content_container-content {
+        gap: 0rem;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .pole{
+        width: 95%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #pole1{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        height: 7rem;
+        width: 95%;
+      }
+      #pole2{
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      #pole3{
+        grid-row-start: 3;
+        grid-column-start: 2;
+      }
+      #pole4{
+        grid-row-start: 4;
+        grid-column-start: 2;
+      }
+      #pole5{
+        grid-row-start: 5;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      #pole6{
+        grid-row-start: 6;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      #pole7{
+        grid-row-start: 7;
+        grid-row-end: 9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        display: flex;
+        flex-wrap: wrap;
+        resize: none;
+      }
+      .mail br{
+        display: none;
+      }
+      footer p{
+        font-size: 1.4rem;
+      }
+      footer{
+        margin-top: 3rem;
+      }
+      .rotare-button{
+        width: 100%;
+      }
+      .text-3{
+        font-size: 1.6rem;
+      }
+      .Our{
+        font-size: 2.4rem;
+      }
+      .content_container article img{
+        min-width: 17.4rem;
+
+      }
+
+      .section_1{
+        overflow: hidden;
+        position: relative;
+        padding: 0rem 2rem;
+      }
+      .div-footer{
+        display: flex;
+        justify-content: center;
+      }
+      .section_2{
+        
+      }
+      .vignette-container {
+        position: relative;
+      }
+      .vignette-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+}
