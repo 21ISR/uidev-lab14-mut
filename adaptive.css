@@ -41,31 +41,31 @@
         grid-column-end: 4;
         height: 7rem;
         width: 95%;
-      }
-      #pole2{
+    }
+    #pole2{
         grid-row-start: 2;
         grid-column-start: 2;
         grid-column-end: 4;
-      }
-      #pole3{
+    }
+    #pole3{
         grid-row-start: 3;
         grid-column-start: 2;
-      }
-      #pole4{
+    }
+    #pole4{
         grid-row-start: 4;
         grid-column-start: 2;
-      }
-      #pole5{
+    }
+    #pole5{
         grid-row-start: 5;
         grid-column-start: 2;
         grid-column-end: 4;
-      }
-      #pole6{
+    }
+    #pole6{
         grid-row-start: 6;
         grid-column-start: 2;
         grid-column-end: 4;
-      }
-      #pole7{
+    }
+    #pole7{
         grid-row-start: 7;
         grid-row-end: 9;
         grid-column-start: 2;
@@ -73,50 +73,66 @@
         display: flex;
         flex-wrap: wrap;
         resize: none;
-      }
-      .mail br{
+    }
+    .mail br{
         display: none;
-      }
-      footer p{
+    }
+    footer p{
         font-size: 1.4rem;
-      }
-      footer{
+    }
+    footer{
         margin-top: 3rem;
-      }
-      .rotare-button{
+    }
+    .rotare-button{
         width: 100%;
-      }
-      .text-3{
+    }
+    .text-3{
         font-size: 1.6rem;
-      }
-      .Our{
+    }
+    .Our{
         font-size: 2.4rem;
-      }
-      .content_container article img{
+    }
+    .content_container article img{
         min-width: 17.4rem;
 
-      }
+    }
 
-      .section_1{
+    .section_1{
         overflow: hidden;
         position: relative;
         padding: 0rem 2rem;
-      }
-      .div-footer{
+    }
+    .div-footer{
         display: flex;
         justify-content: center;
-      }
-      .section_2{
+    }
         
-      }
-      .vignette-container {
-        position: relative;
-      }
-      .vignette-container img {
+    .vignette-container {
+        position: static;
+        z-index: -1;
+        width: 100%;
+        inset: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .vignette-container img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
-      }
-
-
+    }
+    .telephone-horizontal{
+        transform: rotate(0deg);
+        min-width: 40rem;
+    }
+    .rotate-telephone{
+        left: 0;
+        top:0;
+    }
+    .text-2{
+      width: auto;
+      z-index: 200;
+      order: -1;
+    }
+    .content_container-2{
+      flex-direction: column;
+    }
 }
