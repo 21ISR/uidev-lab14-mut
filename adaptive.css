@@ -4,6 +4,14 @@
         height: 5.2rem;
     }
 
+    .content_container-content-div{
+        font-size: 1.6rem;
+    }
+
+    .section_2 p{
+        font-size: 1.6rem;
+    }
+
     .content_container .content_container-content h2{
         font-size: 3.5rem;
         padding-top: 5rem;
@@ -108,12 +116,13 @@
     }
         
     .vignette-container {
-        position: static;
+        position: relative;
         z-index: -1;
         width: 100%;
         inset: auto;
         display: flex;
         flex-direction: column;
+        overflow: visible;
     }
     .vignette-container img {
         width: 100%;
@@ -121,11 +130,11 @@
     }
     .telephone-horizontal{
         transform: rotate(0deg);
-        min-width: 40rem;
+        min-width: 35rem;
     }
     .rotate-telephone{
         left: 0;
-        top:0;
+        top:-30rem;
     }
     .text-2{
       width: auto;
